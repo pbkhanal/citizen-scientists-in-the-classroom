@@ -1,127 +1,72 @@
 /*
-	Directive by HTML5 UP
+	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
-/* Basic */
-
-	hr {
-		border-top: solid 1px #cccccc;
-	}
-
-	blockquote {
-		border-left: solid 0.5em #cccccc;
-	}
-
-/* Section/Article */
-
-	header.major {
-		border-color: #cccccc;
-	}
-
-		header.major p {
-			border-top: solid 1px #cccccc;
-		}
-
-	footer.major {
-		border-color: #cccccc;
-	}
 
 /* Button */
 
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
+	button,
 	.button {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+		border: solid 1px #dedede;
 	}
-
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		input[type="button"].alt,
-		.button.alt {
-			border: solid 1px #cccccc;
-		}
 
 /* Form */
 
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select,
 	textarea {
-		position: relative;
-		border: solid 1px #cccccc;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+		border: solid 1px #dedede;
 	}
 
-/* Image */
+/* Post */
 
-	.image {
-		border: 0;
-		display: inline-block;
-		position: relative;
+	.post {
+		border: solid 1px #dedede;
 	}
 
-		.image:after {
-			display: none;
+		.post > header {
+			border-bottom: solid 1px #dedede;
 		}
 
-/* Box */
+/* Mini Post */
 
-	.box {
-		border: solid 1px #cccccc;
+	.mini-post {
+		border: solid 1px #dedede;
 	}
 
 /* Header */
 
 	#header {
-		background-image: url("../../images/header.jpg") !important;
-		background-size: cover !important;
-		background-position: scroll !important;
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-		padding: 8em 0 !important;
-		color: #ffffff;
+		border-bottom: solid 1px #dedede;
 	}
 
-		#header a {
-			color: inherit;
+		#header .links {
+			border-left: solid 1px #dedede;
 		}
 
-		#header:before {
-			content: '';
-			background-image: url("images/overlay.png");
-			position: absolute;
-			left: 0;
-			top: 0;
-			width: 100%;
-			height: 100%;
-			display: block;
-			z-index: 0;
+		#header .main ul li {
+			border-left: solid 1px #dedede;
 		}
 
-		#header > * {
-			position: relative;
-			z-index: 1;
-		}
+/* Sidebar */
 
-		#header .logo {
-			-ms-behavior: url("assets/js/ie/PIE.htc");
-		}
-
-/* Footer */
-
-	#footer {
-		background-image: none !important;
-		margin-top: 0 !important;
-		padding: 4em 0 !important;
-		color: #ffffff;
+	#sidebar > * {
+		border-top: solid 1px #dedede;
 	}
 
-/* Main */
+/* Menu */
 
-	#main {
-		padding: 4em 0;
+	#menu {
+		border-left: solid 1px #dedede;
 	}
+
+		#menu > * {
+			border-top: solid 1px #dedede;
+		}
